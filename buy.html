@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <h1 class="logo"><strong>Blue<span>jack</span> AWquarium</strong></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="">Buy</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="row1">
+            <div class="column0">
+                <form action="" id="form1">
+                    <label>Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name here..">
+                    <br>
+                    
+                    <label>Email</label>
+                    <input type="text" name="email" id="email" placeholder="Your email here..">
+                    <br>
+
+                    <label>Phone</label>
+                    <input type="text" name="phone" id="phone" placeholder="Your phone here..">
+                    <br>
+
+                    <label>Type</label>
+                    <select name="type" id="type">
+                        <option value="kosong">--Choose--</option>
+                        <option value="Type A">Type A</option>
+                        <option value="Type B">Type B</option>
+                    </select>
+                    <br>
+                    
+                    <label>Guide</label> <br>
+                    <input type="radio" name="guide" id="yes" value="Yes">Yes
+                    <input type="radio" name="guide" id="no" value="No">No
+                    <br>
+
+                    <label>Visitor</label>
+                    <input type="text" name="visitor" id="visitor" placeholder="How many people?">
+                    <br>
+
+                    <label>Visit Date</label>
+                    <input type="date" name="visitdate" id="visitdate">
+                    <br>
+
+                    <input type="checkbox" name="agree" id="agree"> I agree to Terms and Conditions
+                    <br>
+                    <br>
+                    <input type="button" value="Submit" id="submit" onclick="validate()">
+
+                </form>
+            </div>
+            <br>
+            
+            <div class="column1">
+                <p class="ads0">Buy Now!</p>
+                <p class="ads">before it's sold out</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="stickyfooter">
+        <div class="copyright">Copyright &copy; Benaya & Vania 2019</div>
+    </footer>
+</body>
+</html>
